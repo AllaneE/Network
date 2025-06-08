@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Allane"
+  },
+  "text": {
+    "more": "Rede de páginas da Wikipédia relacionadas à Feiticeira Escarlate\nEste grafo contém 502 nós e 33.078 arestas, representando conexões entre páginas da Wikipédia que se vinculam à personagem Feiticeira Escarlate. Cada nó é uma página, e cada aresta representa um link entre elas, revelando o ecossistema de tópicos, personagens e eventos interligados no universo Marvel e além.",
+    "intro": "Rede de páginas da Wikipédia relacionadas à Feiticeira Escarlate",
+    "title": "Feiticeira Escarlate"
+  },
+  "legend": {
+    "edgeLabel": "link entre páginas",
+    "colorLabel": "Blue",
+    "nodeLabel": "página da Wikipédia"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
